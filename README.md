@@ -66,8 +66,8 @@ El código está organizado siguiendo una separación estricta de capas para gar
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone
-    cd memory-game-rick
+    git clone https://github.com/gelvezz23/memoryGame.git
+    cd memoryGame
     ```
 
 2.  **Instalar dependencias:**
@@ -124,3 +124,20 @@ Inspiración de diseño de la aplicación
 ---
 
 > Hecho con 💚 y mucha ciencia ficción. ¡Wubba Lubba Dub-Dub!
+
+### Decisiones Técnicas y Razonamiento
+
+- No use ningun centralizador de estados ya que maneja muy bien el estado local de la aplicación por medio de un custom hook, la ser solo 2 pantallas que se comunican no tuve la necesidad de implementar ningun estado global.
+
+- Utilice Vitest para las pruebas unitarias por ser una herramienta rapida y eficiente para testing en React y se comunica muy bien con Vite.
+
+- Quice simular la autenticacion como si un backend quien responde con un token de JWT usando la libreria de jose.
+
+- separe la logica de los componentes para mantenerlos limpios y faciles de mantener.
+
+### Enfoque de Desarrollo
+
+- Segui el principio de responsabilidad unica para mantener los componentes limpios y faciles de mantener.
+- Utilice componentes funcionales y hooks para manejar el estado y la logica de la aplicacion.
+- Utilice componentes reutilizables para mantener el codigo DRY.
+- Proteccion de rutas por medio de React router para controlar el acceso a las pantallas.
