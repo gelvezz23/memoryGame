@@ -88,8 +88,6 @@ El código está organizado siguiendo una separación estricta de capas para gar
 Este proyecto incluye pruebas unitarias para asegurar que la lógica de autenticación y el motor del juego funcionen correctamente.
 
 - **Correr pruebas:** `npm run test`
-- **Interfaz de Vitest:** `npm run test:ui`
-- **Reporte de cobertura:** `npm run coverage`
 
 ---
 
