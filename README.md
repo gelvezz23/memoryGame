@@ -106,6 +106,10 @@ Este proyecto incluye pruebas unitarias para asegurar que la lógica de autentic
 
 ---
 
+## Deployment
+
+La aplicación se encuentra deployada en Vercel: [https://memory-game-ecru-pi.vercel.app/](https://memory-game-ecru-pi.vercel.app/)
+
 ## Figma - Diseño
 
 Inspiración de diseño de la aplicación
